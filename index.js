@@ -7,7 +7,7 @@ function writeCards(cards) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
   }
  
-  return gifts;
+  return cards;
 }
  
 wrapGifts(gifts);
