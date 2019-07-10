@@ -1,21 +1,17 @@
 // Code your solutions in this file
 
-const cards = ["Ada", "Brendan", "Ali"];
- 
-function writeCards(cards) {
-  for (let i = 0; i < cards.length; i++) {
-    console.log(`Thank you,  ${cards[i]}, for the wonderful birthday gift.`);
+function writeCards (names, event){
+  const messages = [];
+  for (let i = 0 ; i < names.length ; i++){
+    messages[i] = `Thank you, ${names[i]}, for the wonderful ${event} gift.`;
   }
- 
-  return cards;
+  return messages;
 }
- 
-writeCards(gifts);
 
 function countdown(number){
-  while (i > number){
-    console.log(i--);
+  number < 0 ? number *= -1 : number;
+  while (number >= 0 ){
+    console.log(number);
+    number--;
   }
 }
-
-countdown(10);
