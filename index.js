@@ -11,3 +11,11 @@ function writeCards(cards) {
 }
  
 writeCards(gifts);
+
+function countdown(number){
+  while (i > number){
+    console.log(i--);
+  }
+}
+
+countdown(10);
