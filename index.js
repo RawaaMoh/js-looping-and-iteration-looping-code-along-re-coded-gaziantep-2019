@@ -3,11 +3,11 @@
 const cards = ["Ada", "Brendan", "Ali"];
  
 function writeCards(cards) {
-  for (let i = 0; i < gifts.length; i++) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
+  for (let i = 0; i < cards.length; i++) {
+    console.log(`Wrapped ${cards[i]} and added a bow!`);
   }
  
   return cards;
 }
  
-wrapGifts(gifts);
+writeCards(gifts);
