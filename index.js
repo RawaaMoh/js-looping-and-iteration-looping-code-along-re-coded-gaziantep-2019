@@ -1,8 +1,8 @@
 // Code your solutions in this file
 
-const gifts = ["teddy bear", "drone", "doll"];
+const cards = ["teddy bear", "drone", "doll"];
  
-function wrıteCards(gifts) {
+function writeCards(cards) {
   for (let i = 0; i < gifts.length; i++) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
   }
