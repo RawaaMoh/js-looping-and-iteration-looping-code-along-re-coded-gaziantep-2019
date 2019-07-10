@@ -1,6 +1,6 @@
 // Code your solutions in this file
 
-const cards = ["teddy bear", "drone", "doll"];
+const cards = ["Ada", "Brendan", "Ali"];
  
 function writeCards(cards) {
   for (let i = 0; i < gifts.length; i++) {
